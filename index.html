@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="css/bootstrap-css/bootstrap.min.css">
+
+    <!-- MEUS ESTILOS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+
+    <!-- ICONES -->
+    <script src="https://kit.fontawesome.com/15803e036c.js" crossorigin="anonymous"></script>
+    <!-- AXIOS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>DOK - Despachante</title>
+</head>
+
+<body>
+
+
+    <section class="header">
+        <div class="container d-flex">
+            <img src="img/foto_matheus.png" class="man-img align-self-end" alt="Matheus">
+
+            <div class="d-flex flex-column justify-content-around ">
+
+                <div class="d-flex justify-content-around mb-5">
+                    <img class="align-self-start  img-logo " src="img/logo_dok.svg" alt="">
+
+                    <button class="btn btn-afiliado btn-hidden">Já sou afiliado</button>
+
+                </div>
+
+
+                <h1 class="">Torne-se um afiliado do maior despachante do Brasil!</h1>
+
+                <button class="btn btn-afiliado d-none btn-show">Já sou afiliado</button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="form bg-redDok">
+
+        <div class="container d-flex justify-content-around align-items-center ">
+
+            <iframe width="550" height="300" src="https://www.youtube.com/embed/ZHMvV8sR_Ig"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen class="video"></iframe>
+
+
+
+            <form id="form">
+                <div class="mb-3 d-flex justify-content-center ">
+                    <input type="text" class="form-control p-4 " id="name" placeholder="Informe seu nome" />
+                </div>
+                <div class="mb-3 d-flex justify-content-center position-relative">
+
+                    <input type="email" class="form-control p-4" id="email" placeholder="Informe seu email"
+                        onfocus="removeErro()" />
+
+                    <i class="fas fa-exclamation-circle"></i>
+
+
+                </div>
+
+
+                <div>
+                    <button id="btn-enviar" type="submit" class="w-80 btn btn-afiliado" onclick="validate(event)">Sim,
+                        quero ser um
+                        afiliado</button>
+
+                </div>
+            </form>
+        </div>
+
+
+
+    </section>
+
+    <main>
+        <div class="container">
+            <h2 class="text-center mt-5 fw-bold">Conheça TODOS os motivos para ser um Afiliado DOK Despachante</h2>
+            <div class="d-flex flex-wrap mt-5">
+                <div class="mini-box d-flex align-items-center">
+                    <div class="rounded-circle bg-image ">
+                        <img src="img/porcentagem.svg" alt="porcentagem">
+                    </div>
+                    <p class="p-4 ">Fature <strong>40%</strong> dos honorários de cada pedido com pagamento aprovado!
+                    </p>
+
+
+                </div>
+
+                <div class="mini-box d-flex align-items-center">
+                    <div class="bg-image rounded-circle">
+                        <img src="img/enviar.svg" alt="enviar">
+                    </div>
+                    <p class="p-4">Tenha suporte diário em nosso <strong>grupo exclusivo</strong> do Telegram.</p>
+
+                </div>
+            </div>
+
+
+            <div class="d-flex flex-wrap">
+                <div class="mini-box d-flex align-items-center   ">
+                    <div class="bg-image rounded-circle ">
+                        <img src="img/presente.svg" alt="presente">
+                    </div>
+                    <p class="p-4">Receba <strong>premiações</strong> a cada cota de vendas alcançadas! Ganhe
+                        Smartwatches, Smartphones e muito mais.</p>
+
+
+
+                </div>
+
+                <div class="mini-box d-flex align-items-center  ">
+                    <div class="rounded-circle bg-image">
+                        <img src="img/moeda.svg" alt="moeda">
+                    </div>
+                    <p class="p-4">Procurando por renda complementar? Fature até R$1000.00 por mês fazendo uma única
+                        venda por dia.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <section class="section-four bg-redDok">
+        <div class="container d-flex  ">
+            <div class="w-60  ">
+                <h1 class="mt-5 text-white fw-bold pe-5 ">Já pensou em quantos veículos existem só no estado de São
+                    Paulo?
+                </h1>
+                <h2 class="mt-4 mb-5 text-white fw-normal">Há 30 milhões de pessoas para você vender esse produto</h2>
+            </div>
+
+            <div class="d-flex align-items-center ">
+                <img class="" src="img/carro.png" alt="">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-five">
+        <div class="container">
+            <div class="d-flex  mt-5 ">
+                <div class="w-50 d-flex flex-column justify-content-between me-5">
+                    <p>Somente na capital paulista existem mais de &emsp; 8.603.239 &emsp;veículos &emsp; circulando
+                        diariamente, de acordo com a pesquisa da Companhia de Engenharia de Tráfego (CET), de 201
+                    </p>
+                    <p><span>No Estado de São Paulo há mais de 30 milhões de veículos. Isso quer dizer que você tem 30
+                            milhões de potenciais clientes que precisam e que vão regularizar os débitos dos seus
+                            veículos anualmente.
+                        </span></p>
+
+
+
+
+                    <p>Começando pelo IPVA, nos 3 primeiros meses do ano, passando para o licenciamento, que vai até
+                        dezembro, sem
+                        contar com eventuais multas e condutores inadimplentes que buscam parcelamentos durante o ano
+                        todo. </p>
+                </div>
+
+                <img src="img/carros_parque.png" alt="carros_parque">
+
+            </div>
+
+            <h1 class="title">Seja um afiliado e aproveite todo o potencial deste público!
+            </h1>
+            <div class="d-flex align-items-start ">
+                <img src="img/carteira.png" alt="carteira" class="img-carteira">
+                <div class="d-flex flex-column justify-content-between  w-60 afiliado">
+                    <p class="">Com o DOK Despachante você oferece praticidade e solução para quem busca pagar seus
+                        débitos com a
+                        menor burocracia possível. Nossos serviços funcionam 100% online, com parcelamentos em até 12x,
+                        divididos em 6 diferentes cartões, com as menores taxas do mercado.
+                    </p>
+                    <p class="">Afilie-se, leve nossos serviços para quem precisa e aproveite a renda extra que você
+                        sempre
+                        sonhou. Faça parte do time do despachante que mais cresce no Brasil, com 15 anos de experiência
+                        no mercado de veículos paulista.</p>
+                </div>
+            </div>
+
+            <div class=" text-center mt-5 mb-5">
+                <a href="#form">
+                    <button type="submit" class="w-50 btn btn-afiliado mt-3 mb-5 ">Sim, quero ser um afiliado</button>
+
+
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <script src="js/validacao.js"></script>
+</body>
+
+</html>

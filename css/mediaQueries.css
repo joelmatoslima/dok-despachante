@@ -1,0 +1,146 @@
+@media (max-width: 991px) {
+  /*----------SECTION.HEADER-------*/
+
+  .man-img {
+    margin: 0;
+    order: 2;
+    align-self: center !important;
+    margin-top: 30px;
+  }
+  .header .container {
+    flex-direction: column;
+    text-align: center;
+    min-width: 100%;
+  }
+
+  .header .container h1 {
+    font-size: 35px;
+  }
+  .header div > img {
+    margin-top: 50px;
+  }
+
+  .header button.btn-hidden {
+    display: none;
+  }
+
+  .header button.btn-show {
+    display: block !important;
+    width: 80%;
+    align-self: center;
+    margin-top: 50px;
+  }
+
+  /*-------SECTION.FORM-------*/
+  .form .container {
+    flex-direction: column;
+  }
+
+  .form form {
+    width: 90%;
+    height: auto;
+    padding: 50px 0;
+    margin-bottom: 35px;
+  }
+
+  .form .video {
+    width: 90%;
+  }
+
+  /*--------MAIN-------*/
+  main .container h2 {
+    font-size: 28px;
+  }
+
+  main .container p {
+    font-size: 24px;
+  }
+
+  /*---------SECTION-FOUR--------*/
+
+  .section-four .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .section-four .container h1 {
+    font-size: 30px;
+  }
+  .section-four .container h2 {
+    font-size: 24px;
+  }
+  .section-four .container img {
+    width: 327px;
+  }
+
+  /*-------SECTION-FIVE-----*/
+  .section-five .container > div {
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .section-five .container > div > div {
+    width: 100% !important;
+  }
+
+  .section-five img {
+    margin-top: 38px;
+    width: 100%;
+  }
+  .section-five p {
+    font-size: 18px;
+  }
+  .section-five .img-carteira {
+    width: 80%;
+    align-self: center;
+  }
+  .section-five .afiliado {
+    margin-top: 50px;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .btn-afiliado {
+    height: auto;
+    padding: 10px 0px;
+  }
+  /*------SECTION.HEADER------*/
+  .header .man-img {
+    width: 293px;
+  }
+
+  /*-----SECTION.FORM------*/
+
+  .form .video {
+    height: 200px;
+  }
+  .form form {
+    width: 100%;
+  }
+
+  /*--------MAIN------*/
+
+  main .mini-box {
+    flex-direction: column;
+  }
+  main .mini-box p {
+    text-align: center;
+    padding: 0 !important;
+    margin-top: 30px;
+  }
+  /*-------SECTION-FOUR------*/
+  .section-four h1 {
+    padding: 0 !important;
+  }
+
+  /*-----SECTION-FIVE------*/
+  .section-five button {
+    width: 100% !important;
+  }
+
+  .fa-exclamation-circle {
+    left: 80%;
+
+  }
+}
